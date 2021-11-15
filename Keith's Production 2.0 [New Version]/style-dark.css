@@ -1,0 +1,305 @@
+@import url("https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap");
+html {
+  scroll-behavior: smooth;
+}
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  text-decoration: none;
+  -webkit-touch-callout: none;
+  -webkit-user-select: none;
+  -khtml-user-select: none;
+  -moz-user-select: none;
+  -ms-user-select: none;
+  user-select: none;
+  background: rgb(36, 33, 33);
+}
+/* MAIN HEADER STYLING SECTION */
+.main-header {
+  border: 1px solid rgba(88, 88, 88, 0.192);
+  margin: 0;
+  padding: 20px 0;
+}
+.main-header .max-content-width {
+  margin: 2px;
+  padding: 0;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+.main-header .page-logo {
+  margin: 1px;
+}
+.main-header .page-logo .logo-h1 a {
+  position: relative;
+  margin: 0;
+  margin-left: 15px;
+  margin-right: 15px;
+  font-family: "Montserrat", sans-serif;
+  font-size: 28px;
+  font-weight: 400;
+  color: white;
+}
+.main-header .page-logo .logo-h1 a .h1-ylw {
+  color: #f3ca20;
+  font-weight: 700;
+}
+.main-header .navigation-bar {
+  margin: 2px;
+  width: fit-content;
+  padding: 3px;
+}
+.main-header .navigation-bar .menu-list li {
+  position: relative;
+  display: inline-block;
+  margin-right: 15px;
+  margin-left: 15px;
+  padding: 5px;
+  text-align: center;
+}
+.main-header .navigation-bar .menu-list li a {
+  display: block;
+  font-family: "Montserrat", sans-serif;
+  color: white;
+}
+.main-header .navigation-bar .menu-list li a span {
+  color: #f3ca20;
+}
+.main-header .navigation-bar .menu-list li a:active {
+  color: salmon;
+}
+.main-header .navigation-bar .menu-list li a:hover {
+  text-decoration: underline;
+}
+.main-header .navigation-bar .menu-list li a span:hover {
+  text-decoration: #f3ca20 underline;
+}
+/* SECTION 1 HOME STYLING SECTION */
+.section-1-home {
+  position: relative;
+  height: 100vh;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.section-1-home .image-content {
+  margin: 15px;
+}
+.section-1-home .image-content img {
+  margin: 25px;
+  width: 200px;
+  height: 200px;
+  border-radius: 100px;
+  border: 2px solid white;
+}
+.section-1-home .text-content {
+  line-height: 55px;
+}
+.section-1-home .text-content .text-1 {
+  font-family: "Montserrat", sans-serif;
+  color: white;
+  font-size: 40px;
+}
+.section-1-home .text-content .text-1 span {
+  color: #f3ca20;
+}
+.section-1-home .text-content .text-2 {
+  font-family: "Montserrat", sans-serif;
+  color: white;
+  font-size: 20px;
+}
+.section-1-home .text-content a {
+  display: inline-block;
+  font-size: 20px;
+  padding: 2px 17px;
+  background: rgb(46, 46, 46);
+  color: white;
+  font-family: "Montserrat", sans-serif;
+  margin-top: 15px;
+  border: 1px solid rgba(255, 255, 255, 0.452);
+}
+.section-1-home .text-content a:hover {
+  background: #f3ca20;
+  color: black;
+  font-size: 20px;
+}
+/* SECTION 2 SERVICES STYLING SECTION */
+.css-about {
+  position: relative;
+  height: 100vh;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  color: white;
+}
+.css-about h3 {
+  margin-right: 100px;
+  font-weight: 400;
+  font-size: 50px;
+  font-family: "Montserrat", sans-serif;
+  width: fit-content;
+  color: white;
+}
+.css-about h3 span {
+  font-size: 100px;
+  color: #f3ca20;
+}
+.css-about p {
+  position: relative;
+  width: 60%;
+  font-family: "Montserrat", sans-serif;
+  font-size: 30px;
+  text-align: justify;
+  color: white;
+}
+.css-about div {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.css-about p span {
+  font-weight: bold;
+  line-height: 40px;
+}
+.css-about p span a {
+  color: #f3ca20;
+}
+.css-about p span a:hover {
+  color: white;
+}
+.css-services {
+  position: relative;
+  height: 100vh;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.css-services div {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.css-services p {
+  position: relative;
+  width: 60%;
+  font-family: "Montserrat", sans-serif;
+  font-size: 30px;
+  text-align: justify;
+  color: rgb(255, 255, 255);
+}
+.css-services p strong {
+  color: #f3ca20;
+}
+.css-services h3 {
+  margin-left: 100px;
+  font-weight: 400;
+  font-size: 50px;
+  font-family: "Montserrat", sans-serif;
+  width: fit-content;
+  color: rgb(255, 255, 255);
+}
+.css-services h3 span {
+  font-size: 100px;
+  color: #f3ca20;
+}
+.css-skills {
+  position: relative;
+  height: 100vh;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.css-skills div {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.css-skills p {
+  position: relative;
+  width: 60%;
+  font-family: "Montserrat", sans-serif;
+  font-size: 30px;
+  text-align: justify;
+  color: rgb(255, 253, 253);
+}
+.css-skills p strong {
+  color: #f3ca20;
+}
+.css-skills h3 {
+  margin-right: 100px;
+  font-weight: 400;
+  font-size: 50px;
+  font-family: "Montserrat", sans-serif;
+  width: fit-content;
+  color: rgb(255, 255, 255);
+}
+.css-skills h3 span {
+  font-size: 100px;
+  color: #f3ca20;
+}
+.css-contact {
+  position: relative;
+  height: 100vh;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.css-contact div {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.css-contact p {
+  position: relative;
+  width: 60%;
+  font-family: "Montserrat", sans-serif;
+  font-size: 30px;
+  text-align: justify;
+  color: rgb(255, 242, 242);
+}
+.css-contact p strong {
+  color: #f3ca20;
+}
+.css-contact h3 {
+  margin-left: 100px;
+  font-weight: 400;
+  font-size: 50px;
+  font-family: "Montserrat", sans-serif;
+  width: fit-content;
+  color: rgb(255, 255, 255);
+}
+.css-contact h3 span {
+  font-size: 100px;
+  color: #f3ca20;
+}
+/* FOOTER STYLING SECTION */
+.main-footer {
+  text-decoration: none;
+  display: flex;
+  justify-content: space-between;
+  margin: 5px;
+  align-items: center;
+}
+.main-footer .media-icon .media-icon-list li {
+  position: relative;
+  display: inline-block;
+  margin-right: 5px;
+}
+
+.main-footer .copyright-text {
+  font-family: "Montserrat", sans-serif;
+  margin: auto;
+  margin-left: 15px;
+  margin-right: 15px;
+  color: rgb(255, 255, 255);
+}
+.main-footer .notice-text {
+  font-family: "Montserrat", sans-serif;
+  font-size: 15px;
+  color: rgb(255, 255, 255);
+}
+.main-footer .notice-text span {
+  font-weight: bold;
+  color: #f3ca20;
+}
